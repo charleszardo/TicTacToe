@@ -1,0 +1,79 @@
+html, body, div, main, h1, ul, li {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: transparent;
+  font: inherit;
+}
+
+html, body {
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 50px 0;
+}
+
+ul {
+  border: 5px solid black;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+
+}
+
+.clickedX:after {
+  display: block;
+  margin: 0 auto;
+  content: "X";
+  font-weight: bold;
+  font-size: 95px;
+  margin-top: -7px;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+}
+
+.clickedO:after {
+  display: block;
+  margin: 0 auto;
+  content: "O";
+  font-weight: bold;
+  font-size: 95px;
+  margin-top: -7px;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  color: white;
+}
+
+.clickedX {
+  background: red;
+}
+
+.clickedO {
+  background: blue;
+}
+
+li:hover {
+  background: yellow;
+}
+
+li {
+
+  height: 90px;
+  width: 90px;
+  background: gray;
+  border: solid black 5px;
+  float: left;
+
+}
+
+.row {
+
+}
