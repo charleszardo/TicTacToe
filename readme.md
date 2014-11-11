@@ -5,7 +5,7 @@ Four implementations of Tic Tac Toe built with Ruby, Javascript, and jQuery.
 ### Ruby
 Run `Ruby/tictactoe.rb` in the command line to play against a computer player.  Rows and columns are numbered 0 - 2.
 
-### Tic Tac Toe
+### Tic Tac Toe AI
 Also built with Ruby, features an unbeatable computer AI.  Run `AI/tic_tac_toe.rb` to play.  AI uses depth first search to determine best possible move on every turn.
 
 ### Javascript
