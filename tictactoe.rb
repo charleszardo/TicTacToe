@@ -231,3 +231,6 @@ class ComputerPlayer < Player
   end
 end
 
+g = Game.new()
+g.play()
+
