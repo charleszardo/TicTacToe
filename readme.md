@@ -12,5 +12,5 @@ Also built with Ruby, but featuring an unbeatable computer AI.  Run `AI/tic_tac_
 User interaction implemented with node's `readline` library. Coordinates may be entered as "x, y".  Rows and columns are numbered 0 - 2.  Run `Javascript/playTicTacToe.js` to play.
 
 ###jQuery
-Tic Tac Toe in the browser.  Open `jQuery/skeleton/html/index.html` to play.  Utitlizes [Browserify][browserify] to concatenate the Node
+Tic Tac Toe in the browser.  Open `jQuery/skeleton/html/index.html` to play.  Utitlizes [Browserify][http://browserify.org/] to concatenate the Node
 source files.
